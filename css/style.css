@@ -1,48 +1,63 @@
 body {
     background-color: LightGray;
-    min-width: 36.5rem;
+    /*min-width: 36.5rem;*/
     height: 1000px;
-	font-family: 'Roboto', sans-serif;
-
 }
-div {
-    border: 1px solid Chocolate;
-}
+/*div {*/
+    /*border: 1px solid Chocolate;*/
+/*}*/
 
 /*navigation section*/
 
-.top-nav {
-	/*position: fixed;*/
-	min-width: 36.5rem;
+.top-navigation {
 	background-color: #fff;
-
 }
 
-.top-nav > .content {
-	width: 60.625rem;
+.content {
+	padding:  0rem 0.9375rem;
+}
+
+.top-navigation .content {
+	/*fixes content in the center of the page*/
+	width: 50rem;
 	height: 4.375rem;
 	margin: 0 auto;
-	color: grey;
 
 }
 
-.top-nav img {
+.top-navigation img {
 	width: 1.625rem; /* 1.625 26px*/
 	height: 4.375rem; /*4.375rem = 70px*/
 }
 
-/*unordered list for the navigation head*/
-.nav-content {
-	border: 1px solid Chocolate;
-	/*make the list horizontal*/
+.links {
+	/*unordered list for the navigation head*/
+	float: right;
+	margin-top: 1.5rem;
 	list-style: none;
-	/*margin: 0em 0em;*/
+
+	/*typography*/
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
 	
 }
 
-.nav-content li {
+.links li {
 	display: inline-block;
-	/*color: grey;*/
-	/*margin: 0 auto;*/
+	margin-left: 1.5625rem
 }
 
+
+/*Active meet karma*/
+.top-navigation .links .active {
+	color: #4c5058; 
+    font-weight: 600;
+
+} 
+
+
+.links li:hover {
+	color: #4c5058;
+}
