@@ -1,0 +1,48 @@
+body {
+    background-color: LightGray;
+    min-width: 36.5rem;
+    height: 1000px;
+	font-family: 'Roboto', sans-serif;
+
+}
+div {
+    border: 1px solid Chocolate;
+}
+
+/*navigation section*/
+
+.top-nav {
+	/*position: fixed;*/
+	min-width: 36.5rem;
+	background-color: #fff;
+
+}
+
+.top-nav > .content {
+	width: 60.625rem;
+	height: 4.375rem;
+	margin: 0 auto;
+	color: grey;
+
+}
+
+.top-nav img {
+	width: 1.625rem; /* 1.625 26px*/
+	height: 4.375rem; /*4.375rem = 70px*/
+}
+
+/*unordered list for the navigation head*/
+.nav-content {
+	border: 1px solid Chocolate;
+	/*make the list horizontal*/
+	list-style: none;
+	/*margin: 0em 0em;*/
+	
+}
+
+.nav-content li {
+	display: inline-block;
+	/*color: grey;*/
+	/*margin: 0 auto;*/
+}
+
