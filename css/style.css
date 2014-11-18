@@ -1,5 +1,5 @@
 body {
-    background-color: LightGray;
+    /*background-color: LightGray;*/
 
     /*min-width: 36.5rem;*/
     /*height: 1000px;*/
@@ -7,13 +7,14 @@ body {
 
 }
 
-div {
-    border: 1px solid Chocolate;
-}
+/*div {*/
+    /*border: 1px solid Chocolate;*/
+/*}*/
 
 /*navigation section*/
 
 .top-navigation {
+	border-bottom: 1px solid black;
 	/*fixes the navigation to the top of the page*/
 	position: fixed;
 	width: 100%;
@@ -137,7 +138,7 @@ button:hover {
 	
 
 	/* styles to assist with debugging */
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 
 }
 
@@ -154,7 +155,10 @@ button:hover {
 }
 
 .cases h3 {
+	padding: 0em 1em;
 	font-weight: 400;
 	font-size: 1.563rem;
 	margin: 2.5rem 0px 1.875rem;
+	text-align: center;
+
 }
