@@ -2,19 +2,25 @@ body {
     background-color: LightGray;
 
     /*min-width: 36.5rem;*/
-    height: 1000px;
+    /*height: 1000px;*/
     font-family: 'Roboto', sans-serif;
 
 }
 
-/*div {*/
-    /*border: 1px solid Chocolate;*/
-/*}*/
+div {
+    border: 1px solid Chocolate;
+}
 
 /*navigation section*/
 
 .top-navigation {
+	/*fixes the navigation to the top of the page*/
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+
 	background-color: #fff;
+
 }
 
 .content {
@@ -110,4 +116,45 @@ button {
 
 button:hover {
 	opacity: 1;
+}
+
+/*explanation section*/
+
+
+.cases .content {
+	height: 34.3125rem;
+	
+	
+
+}
+.cases .devices {
+	/*centers text, images, and divs*/	
+	width: 33.3333%;
+	float: left;
+	text-align: center;
+
+
+	
+
+	/* styles to assist with debugging */
+    border: 1px solid black;
+
+}
+
+.devices img {
+	height: 7.9375rem;
+	width:  7.9375rem;
+}
+
+.cases h2 {
+	margin: 7.625rem 0 3.125rem 0;
+	font-size: 2.75rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+.cases h3 {
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0px 1.875rem;
 }
