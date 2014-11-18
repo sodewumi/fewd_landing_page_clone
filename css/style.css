@@ -33,7 +33,7 @@ body {
 .links {
 	/*unordered list for the navigation head*/
 	float: right;
-	margin-top: 1.5rem;
+	margin-top: 1.6rem;
 	list-style: none;
 
 	/*typography*/
@@ -60,4 +60,20 @@ body {
 
 .links li:hover {
 	color: #4c5058;
+}
+
+/*Intro section*/
+.intro {
+	color: white;
+	height: 45.9357rem;
+	background: url('../images/background.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+button {
+	background-color: #f15a29;
 }
