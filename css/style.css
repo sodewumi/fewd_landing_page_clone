@@ -1,27 +1,15 @@
 body {
-    /*background-color: LightGray;*/
-
-    /*min-width: 36.5rem;*/
-    /*height: 1000px;*/
     font-family: 'Roboto', sans-serif;
-
 }
 
-/*div {*/
-    /*border: 1px solid Chocolate;*/
-/*}*/
-
-/*navigation section*/
-
 .top-navigation {
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #eaebec;
 	/*fixes the navigation to the top of the page*/
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
 
 	background-color: #fff;
-
 }
 
 .content {
@@ -123,11 +111,11 @@ button:hover {
 
 
 .cases .content {
-	height: 34.3125rem;
-	
-	
+	height: 28.3125rem;
+	border-bottom: 1px solid #eaebec;
 
 }
+
 .cases .devices {
 	/*centers text, images, and divs*/	
 	width: 33.3333%;
@@ -162,3 +150,37 @@ button:hover {
 	text-align: center;
 
 }
+
+/*footer*/
+footer .content {
+	text-align: center;
+}
+footer p {
+	margin: 1em 0;
+}
+
+.fa-facebook {
+	color: #516099;
+}
+
+.fa-twitter {
+	color: #59AEF1;
+}
+
+.fa-instagram {
+	color: #507099;
+}
+.icons li {
+	border: 1px solid #eaebec;
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0.625rem;
+	display: inline-block;
+	text-align: center;
+}
+
+.disclaimer {
+	color: #838994;
+}
+
