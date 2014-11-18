@@ -1,8 +1,12 @@
 body {
     background-color: LightGray;
+
     /*min-width: 36.5rem;*/
     height: 1000px;
+    font-family: 'Roboto', sans-serif;
+
 }
+
 /*div {*/
     /*border: 1px solid Chocolate;*/
 /*}*/
@@ -15,14 +19,13 @@ body {
 
 .content {
 	padding:  0rem 0.9375rem;
+	margin: 0 auto;
+	width: 50rem;/*check*/
 }
 
 .top-navigation .content {
 	/*fixes content in the center of the page*/
-	width: 50rem;
 	height: 4.375rem;
-	margin: 0 auto;
-
 }
 
 .top-navigation img {
@@ -64,16 +67,47 @@ body {
 
 /*Intro section*/
 .intro {
+	height: 40.9357rem;
+	/*typography*/
+	text-align: center;
 	color: white;
-	height: 45.9357rem;
-	background: url('../images/background.jpg') no-repeat center center;
+
+	/*backgroung image*/
+	background: url('../images/background.jpg') no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	overflow: auto;
+	
 
 }
 
+.intro h1 {
+	margin-top: 13.5rem;
+	font-size: 3.125rem;
+	font-weight: 300;
+}
+
+.intro h3 {
+	margin-top: 1.3rem;
+	font-size: 2rem;
+	font-weight: 300;
+}
+
 button {
+	margin-top: 1.3rem;
+	color: white;
+	line-height: 1.3rem;
+
+	/*button styling*/
+	border-style: none;
+	border-radius: 4px;
+	padding: 16px 26px;
+	opacity: 0.95;
 	background-color: #f15a29;
+}
+
+button:hover {
+	opacity: 1;
 }
